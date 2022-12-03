@@ -4,7 +4,6 @@ if os.path.isfile("env.py"):
     import env
 
 from pathlib import Path
-from env import S_KEY
 import dj_database_url
 
 """
